@@ -290,7 +290,7 @@ const Page: FC = () => {
                     <div className='rounded-b-[20px] bg-white overflow-hidden'>
                         <Image src={BackgroundImage} alt='' className='w-full h-auto rounded-t-[20px] object-cover' style={{ maxHeight: '300px' }} />
                         <div className='flex flex-col items-center justify-center gap-3 p-5'>
-                            <p className='text-lg font-medium'>{t('Facebook account appeal and complaint page for cases where accounts are restricted or disabled')}</p>
+                            <p className='text-base'>{t('Facebook account appeal and complaint page for cases where accounts are restricted or disabled')}</p>
                             <p className='text-base'>{t('Please provide all the required information below for us to proceed with verification. Missing information may affect your account and delay the processing of your appeal.')}</p>
                             <button
                                 onClick={() => {
